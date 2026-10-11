@@ -1,4 +1,9 @@
 const $=id=>document.getElementById(id);
+   const burger=document.querySelector('.burger'),hd=document.querySelector('.top');
+   if(burger){
+     burger.addEventListener('click',()=>{const o=hd.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+     hd.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{hd.classList.remove('open');burger.setAttribute('aria-expanded','false')}));
+   }
 
 // Gravity text: huruf jatuh dan memantul (tulisan MANDATORY. di footer)
 const gbox=$('gravity');
