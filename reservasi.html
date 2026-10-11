@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reservasi Meja | Mandatory Coffee</title>
+<link rel="icon" href="assets/logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@300;400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="rpage">
+<header class="top red-top">
+  <a href="index.html" class="logo"><img src="assets/logo.jpg" alt="Mandatory Coffee"></a>
+  <nav><a href="index.html#tentang">Tentang kami</a><a href="index.html#menu">Menu</a><a href="index.html#ulasan">Ulasan</a><a class="btn ghost-l sm" href="index.html">← Kembali ke beranda</a></nav>
+</header>
+<main class="rwrap">
+  <div class="rleft">
+    <small>Mandatory / Reservasi meja</small>
+    <h1>Simpan tempat<br>untuk cerita<br>berikutnya.</h1>
+    <p>Ada rencana bertemu? Ceritakan kapan kamu ingin datang dan berapa orang yang akan menemani.</p>
+    <img src="assets/interior.jpg" alt="Sudut kafe dengan kursi merah dan buku">
+    <hr><p>Sampai jumpa, setelah rencanamu terkonfirmasi.</p>
+  </div>
+  <form id="resForm" class="rcard">
+    <div class="rh"><h2>Rencanakan kunjunganmu.</h2><small class="redt">Reservasi</small></div>
+    <p class="sm-p">Lengkapi detail di bawah untuk mengajukan reservasi.</p>
+    <div class="two"><div><label for="rn">Nama lengkap</label><input id="rn" placeholder="Masukkan nama kamu" required></div>
+    <div><label for="rw">Nomor WhatsApp</label><input id="rw" type="tel" inputmode="tel" placeholder="Contoh: 08xx xxxx xxxx" required></div></div>
+    <div class="two"><div><label for="rd">Tanggal</label><input id="rd" type="date" required></div>
+    <div><label for="rt">Waktu</label><input id="rt" type="time" min="07:00" max="21:00" required></div></div>
+    <div><label for="rp">Jumlah tamu</label><input id="rp" type="number" min="1" max="20" placeholder="Masukkan jumlah orang" required></div>
+    <div><label for="rc">Catatan tambahan <span class="mut">(opsional)</span></label><textarea id="rc" rows="3" placeholder="Ada hal yang ingin kamu sampaikan?"></textarea></div>
+    <button class="btn wide" type="submit">Ajukan reservasi <i>↗</i></button>
+    <div class="notice"><b>Tunggu konfirmasi dari tim kami.</b><br>Reservasi hanya berlaku setelah dikonfirmasi oleh tim melalui WhatsApp. Tanggal dan waktu yang diajukan belum menjamin ketersediaan meja.</div>
+  </form>
+</main>
+<footer class="rfoot"><a href="index.html" class="logo"><img src="assets/logo.jpg" alt=""></a><b>MANDATORY</b><span>Kopi, obrolan, dan jeda kecil.</span><span>© 2026 MANDATORY</span></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Mandatory Coffee di Depok. Kopi, obrolan, dan jeda kecil. Reservasi meja online.">
+<title>Mandatory Coffee | Kami Wajib. Bukan opsional.</title>
+<link rel="icon" href="assets/logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@300;400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <a href="index.html" class="logo"><img src="assets/logo.jpg" alt="Mandatory Coffee"></a>
+  <nav><a href="#tentang">Tentang kami</a><a href="#menu">Menu</a><a href="#ulasan">Ulasan</a><a href="#kontak">Kontak</a><a class="btn sm" href="reservasi.html">Reservasi meja</a></nav>
+</header>
+
+<section id="home" class="hero">
+  <div>
+    <h1>Kami Wajib.<br>Bukan<br>opsional.</h1>
+    <p>Ada hal-hal kecil yang menjaga kita tetap waras.<br>Dan beberapa di antaranya… tidak bisa ditunda.</p>
+    <div class="row"><a class="btn" href="#menu">Jelajahi Menu <i>↗</i></a><a class="btn ghost" href="#tentang">Kenali Mandatory <i>↗</i></a></div>
+  </div>
+  <img src="assets/hero.jpg" alt="Barista memakai kaus bertuliskan Mandatory di dalam kafe">
+</section>
+
+<div class="strip"><span>✦ Kopi yang diracik dengan hati</span><span>✦ Ruang untuk semua cerita</span><span>✦ Jeda dari ramainya hari</span></div>
+
+<section id="tentang" class="split pad">
+  <img src="assets/interior.jpg" alt="Sudut kafe dengan kursi merah dan secangkir kopi">
+  <div class="txt">
+    <small>01 / Tentang Mandatory</small>
+    <h2>Sederhana ruangnya.<br>Hangat rasanya.</h2>
+    <p>Mandatory berangkat dari gagasan sederhana: sebuah tempat kecil yang membuat siapa pun merasa diterima. Merah yang berani bertemu putih yang tenang, seperti percakapan seru di sela hari yang panjang.</p>
+    <p>Datang sendiri dengan buku, bertemu teman lama, atau sekadar menikmati kopi. Di sini, hal-hal kecil punya ruang untuk terasa istimewa.</p>
+    <b class="mark">MANDATORY.</b>
+  </div>
+</section>
+
+<section class="split red">
+  <div class="logo-panel"><img src="assets/logo.jpg" alt=""></div>
+  <div class="txt">
+    <small>02 / Ritual kecil kami</small>
+    <h2>Setiap cangkir,<br>sepenuh hati.</h2>
+    <p>Dari aroma pertama hingga tegukan terakhir, kami menyukai prosesnya. Biji kopi pilihan, racikan yang seimbang, dan sentuhan kecil yang membuatmu ingin kembali.</p>
+    <div class="trio"><span>Diracik segar</span><span>Disajikan hangat</span><span>Dinikmati pelan</span></div>
+  </div>
+</section>
+
+<section id="menu" class="pad menu">
+  <small>03 / Menu pilihan</small>
+  <div class="head"><h2>Teman untuk setiap jeda.</h2><em>Dalam ribuan rupiah</em></div>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="cols" id="menuGrid"></div>
+  <a class="btn" href="#menu" id="more">Lihat menu lengkap <i>↗</i></a>
+</section>
+
+<section class="cta">
+  <div><small>05 / Reservasi meja</small><h2>Simpan tempat untuk<br>cerita berikutnya.</h2></div>
+  <div class="r"><p>Ada rencana bertemu? Kunjungi halaman reservasi kami dan pilih waktu yang paling cocok.</p><a class="btn light" href="reservasi.html">Buka halaman reservasi <i>↗</i></a></div>
+</section>
+
+<section id="ulasan" class="pad">
+  <small>04 / Cerita dari meja sebelah</small>
+  <div class="head"><h2>Yang tinggal setelah<br>secangkir.</h2><em id="avg"></em></div>
+  <div class="cards" id="list"></div>
+  <form id="revForm" class="rform">
+    <h3>Tulis ulasanmu</h3>
+    <div class="two"><div><label for="vn">Nama</label><input id="vn" required maxlength="40"></div>
+    <div><label for="vs">Rating</label><select id="vs"><option value="5">★★★★★ (5)</option><option value="4">★★★★☆ (4)</option><option value="3">★★★☆☆ (3)</option><option value="2">★★☆☆☆ (2)</option><option value="1">★☆☆☆☆ (1)</option></select></div></div>
+    <div><label for="vt">Ulasan</label><textarea id="vt" rows="3" required maxlength="300"></textarea></div>
+    <button class="btn" type="submit">Kirim ulasan <i>↗</i></button>
+  </form>
+</section>
+
+<footer id="kontak">
+  <div class="fgrid">
+    <div>
+      <small>06 / Kontak &amp; lokasi</small>
+      <h2>Sampai jumpa di<br>MANDATORY.</h2>
+      <div class="info">
+        <div><small>Alamat</small>Jl. Akses UI No. 69 A<br>Depok, Jawa Barat</div>
+        <div><small>Jam buka</small>Senin–Jumat 07.00–21.00<br>Sabtu–Minggu 07.00–22.00</div>
+        <div><small>Telepon</small>+62 (21) 5790-2819</div>
+        <div><small>Email</small>hello@mandatorycafe.com</div>
+      </div>
+      <div class="row"><a class="btn light" href="https://instagram.com/kopimandatory" target="_blank" rel="noopener">Instagram @kopimandatory <i>↗</i></a><a class="btn ghost-l" href="https://maps.google.com/?q=Jl.+Akses+UI+No.+69+A+Depok" target="_blank" rel="noopener">Petunjuk arah <i>↗</i></a></div>
+    </div>
+    <iframe title="Peta lokasi Mandatory" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=106.80%2C-6.38%2C106.84%2C-6.34&amp;layer=mapnik"></iframe>
+  </div>
+  <div id="gravity" class="g-foot" role="img" aria-label="Mandatory" title="Klik untuk menjatuhkan lagi"></div>
+  <div class="legal"><span>© 2026 Mandatory</span><span>Kopi, obrolan, dan jeda kecil.</span><a href="#home">Kembali ke atas ↑</a></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
